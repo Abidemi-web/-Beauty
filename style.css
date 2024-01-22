@@ -1,0 +1,253 @@
+#navbar {
+  background-color: white;
+}
+#navbar button {
+  background: none;
+  color: darkcyan;
+  border: 2px solid darkcyan;
+  font-weight: 700;
+}
+ #navbar a {
+  color: darkcyan;
+  font-weight: 800;
+}
+hr {
+  background-color: darkcyan;
+  border: 2px solid darkcyan;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+header {
+  background-image: url('https://preview.colorlib.com/theme/aesthetic/img/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.con {
+  padding: 8%;
+}
+.con h1 {
+  font-weight: 900;
+}
+.con button {
+  margin-top: 12%;
+  width: 40%;
+  height: 10vh;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  background-color: darkcyan;
+}
+.appoint {
+  background-color: white;
+  text-align: center;
+  margin-top: -100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  
+}
+.appoint input,
+.appoint select {
+  width: 80%;
+  margin-top: 20px;
+  height: 10vh;
+}
+.appoint button {
+  width: 80%;
+  margin-top: 20px;
+  height: 10vh;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  background-color: darkcyan;
+}
+.consult h1 span {
+  color: darkcyan;
+}
+.consult h1 {
+  font-weight: 800;
+  
+}
+.consult p,
+.p {
+  color: #888888;;
+}
+.texts {
+  text-align: center;
+  
+}
+.texts h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.h3{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.service {
+  background-image: url('https://preview.colorlib.com/theme/aesthetic/img/services-bg.jpg');
+}
+
+.service img {
+  width: 80px;
+  
+}
+.offer {
+ display: flex;
+ justify-content: space-between;
+ padding-top: 120px;
+ 
+}
+.offer h3 {
+  color: white;
+  font-weight: 800;
+}
+.offer button {
+  background: none;
+  border: 2px solid darkcyan;
+  color: white;
+  font-size: 17px;
+  width: 150px;
+  height: 8vh
+}
+.offer-ser {
+  padding: 20px;
+  
+}
+
+.ser {
+  display: flex;
+  gap: 70px;
+  background-color: white;
+  margin-bottom: 30px;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 2s;
+}
+.ser:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+/* OUR TEAM */
+.round {
+  height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    transition: 1s;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1)
+}
+.round img {
+  height: 220px;
+    width: 220px;
+    border-radius: 40%;
+    margin-top: 13px;
+
+}
+.round:hover {
+  background-color: darkcyan;
+  border: darkcyan;
+}
+
+/* NEWS */
+.new-f {
+  display: flex;
+  gap: 10px;
+}
+.new-u {
+  background-color: white;
+
+  
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.new-u img {
+  border-radius: 50%;
+}
+.new {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  
+ }
+ .new h3 {
+   color: black;
+   font-weight: 800;
+ }
+ .new button {
+   background: none;
+   border: 2px solid darkcyan;
+   color: darkcyan;
+   font-size: 17px;
+   width: 150px;
+   height: 8vh;
+   border-radius: 5px;
+ }
+ .news a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+ }
+ .news a:hover {
+  text-decoration:underline;
+ }
+ .news h4 {
+  font-size: 20px;
+  font-weight: 700;
+ }
+ /* FOOTER */
+footer {
+  margin-top: 10%;
+  background-color: rgb(6, 46, 46);
+  color: #ffffff;
+  padding-top: 30px;
+}
+footer .a a{
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  color: white;
+}
+footer h4 {
+  font-weight: 700;
+}
+ footer .btns  {
+  margin-right: 50px;
+  background-color: darkcyan;
+  border: none;
+  width: 150px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  margin-left: -20px;
+}
+
+@media (max-width: 740px) {
+  .con {
+    padding-top: 30%;
+  }
+  .ser {
+    font-size: 10px;
+  }
+  
+  .round {
+    border: none;
+    background: none;
+    box-shadow: none;
+  }
+  .round:hover {
+    background: none;
+  }
+}
